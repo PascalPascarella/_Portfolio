@@ -4,7 +4,7 @@
         to right bottom,
         rgba($color-primary-light, 0.8),
         rgba($color-primary-dark, 0.8)),
-    url(../img/hero-small.jpg);
+    url(../img/hero-large.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
@@ -33,12 +33,21 @@
 
     &__logo-box {
         position: absolute;
-        top: 4rem;
-        left: 4rem;
+        top: 3rem;
+        right: 3rem;
+        animation-name: moveInBottom;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in;
+
     }
 
     &__logo {
         height: 3.5rem;
+        filter: invert(1);
+        // opacity: .5;
+        
+
+        
     }
     
     &__text-box {
