@@ -1,7 +1,0 @@
-@mixin clearfix {
-    &::after {
-      content: "";          // Specified or else pseudo-element cannot render on page, empty so we can use it but not see it
-      display: table;       // Standard version of the clearfix
-      clear: both;          // Actually performs the clearfix; clears both floats (left and right)
-    }
-}
