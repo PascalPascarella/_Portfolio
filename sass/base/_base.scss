@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+	margin: 0;				/* Removes base margin on page */
+	padding: 0;				/* Removes base padding on page */
+	box-sizing: inherit;				/* Automatically inherits whatever is put in borderbox in body; changes box model so that borders and paddings are no longer added */
+}
+
+html {
+	font-size: 62.5%;				/* We use 62% of 16px, ie. 10px, as the root font-size so that 1rem=10px exactly */
+}
+
+
+body {
+	box-sizing: border-box;				/*changes box model so that borders and paddings are no longer added */
+}
