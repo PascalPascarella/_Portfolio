@@ -11,7 +11,7 @@
     </head>
     <body>
       <div class="navigation">
-        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle" unchecked>
 
         <label for="navi-toggle" class="navigation__button">
             <span class="navigation__icon">&nbsp;</span>
@@ -19,10 +19,10 @@
         <div class="navigation__background">&nbsp;</div>
         <nav class="navigation__nav">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link"><span><img src="img/logo.png" alt="Logo" class="header__logo"></span>About Pascal</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span><img src="img/logo.png" alt="Logo" class="header__logo"></span>Popular Projects</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span><img src="img/logo.png" alt="Logo" class="header__logo"></span>Developer Stories</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span><img src="img/logo.png" alt="Logo" class="header__logo"></span>Business Inquiries</a></li>
+                <li class="navigation__item"><a href="#about-pascal" class="navigation__link" onclick="setCheckboxValue()"><span><i class="icon-basic-usb"></i></span>About Pascal</a></li>
+                <li class="navigation__item"><a href="#popular-projects" class="navigation__link" onclick="setCheckboxValue()"><span><i class="icon-basic-usb"></i></span>Popular Projects</a></li>
+                <li class="navigation__item"><a href="#developer-stories" class="navigation__link" onclick="setCheckboxValue()"><span><i class="icon-basic-usb"></i></span>Developer Stories</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link" onclick="setCheckboxValue()"><span><i class="icon-basic-usb"></i></span>Business Inquiries</a></li>
                 </ul>
         </nav>
     </div>
@@ -39,7 +39,7 @@
         </header>
 
         <main>
-          <section class="section-about">
+          <section class="section-about" id="about-pascal">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     About Pascal
@@ -91,7 +91,7 @@
                 </div>
             </div>
           </section>
-          <section class="section-projects">
+          <section class="section-projects" id="popular-projects">
             <div class="row">
               <div class="col-1-of-4">
                   <div class="projects-box">
@@ -177,7 +177,7 @@
             
         </div>
           </section>
-          <section class="section-stories">
+          <section class="section-stories" id="developer-stories">
                 <div class="bg-video">
                     <video class="bg-video__content" autoplay muted loop>
                         <source src="img/stories.mp4" type="video/mp4">
@@ -268,4 +268,5 @@
         </footer>
         
     </body>
+    <script src="scripts/script.js"></script>
 </html>
