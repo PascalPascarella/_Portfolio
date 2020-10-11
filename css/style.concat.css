@@ -659,10 +659,10 @@ body {
   .btn--white::after {
     background-color: #fff; }
 
-.btn--green {
+.btn--primary {
   background-color: #3165b9;
   color: #fff; }
-  .btn--green::after {
+  .btn--primary::after {
     background-color: #3165b9; }
 
 .btn::after {
