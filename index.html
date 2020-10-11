@@ -22,7 +22,7 @@
                 <li class="navigation__item"><a href="#about-pascal" class="navigation__link" onclick="setCheckboxValue()"><span><i class="icon-basic-usb"></i></span>About Pascal</a></li>
                 <li class="navigation__item"><a href="#popular-projects" class="navigation__link" onclick="setCheckboxValue()"><span><i class="icon-basic-usb"></i></span>Popular Projects</a></li>
                 <li class="navigation__item"><a href="#developer-stories" class="navigation__link" onclick="setCheckboxValue()"><span><i class="icon-basic-usb"></i></span>Developer Stories</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link" onclick="setCheckboxValue()"><span><i class="icon-basic-usb"></i></span>Business Inquiries</a></li>
+                <li class="navigation__item"><a href="#popup" class="navigation__link" onclick="setCheckboxValue()"><span><i class="icon-basic-usb"></i></span>Business Inquiries</a></li>
                 </ul>
         </nav>
     </div>
@@ -266,6 +266,52 @@
                 </div>
             </div>
         </footer>
+
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/contact-1.jpg" alt="Tour photo" class="popup__img">
+                    <img src="img/contact-2.jpg" alt="Tour photo" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Reach out</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">&ndash; via email <a href="#" class="contact-email">pascal@pascal.com</a></h3>
+                    <p class="popup__text">
+                        or if you prefer
+                    </p>
+                    <div class="book">
+                        <div class="book__form">
+                            <form action="#" class="form">
+                                <div class="u-margin-bottom-medium">
+                                    <h3 class="heading-tertiary">
+                                        &ndash; Via the form below
+                                    </h3>
+                                </div>
+
+                                <div class="form__group">
+                                    <input type="text" class="form__input" placeholder="Name" id="name" required>
+                                    <label for="name" class="form__label">Name</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <input type="email" class="form__input" placeholder="Email address" id="email" required>
+                                    <label for="email" class="form__label">Email address</label>
+                                </div>
+                                
+                                <div class="form__group">
+                                    <textarea name="message" class="form__input" placeholder="Message" id="message" cols="30" rows="4"></textarea>
+                                    <label for="message" class="form__label">Message</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <button class="btn btn--green">Submit &rarr;</button>
+                                </div>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </div>
         
     </body>
     <script src="scripts/script.js"></script>
