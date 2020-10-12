@@ -759,7 +759,7 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   border: none;
   border-bottom: 3px solid transparent;
-  width: 50%;
+  width: 90%;
   display: block;
   transition: all .3s; }
   @media only screen and (max-width: 56.25em) {
@@ -808,7 +808,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 75%;
     background-color: #eee;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     border-radius: 3px;
